@@ -10,7 +10,7 @@ import newproject from "../Images/newproject.png";
 
 const SideNav = () => {
   return (
-    <div class="h-screen w-[272px] bg-[#1D1042] py-9 px-9">
+    <div class="w-[272px] bg-[#1D1042] py-9 px-9">
       <div>
         <button class="bg-[#45269C] text-white font-normal text-base py-[12px] px-[16px] rounded-lg w-[208px] h-[46px]">
           <img src={welcome} alt="welcome" class="inline mx-2.5" />
