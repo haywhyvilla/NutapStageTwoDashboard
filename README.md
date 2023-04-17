@@ -1,4 +1,4 @@
-# NutapStageTwoDashboard
+# NutapStageTwoDashboardTask
 😵-Responsive-dashboard-design
 
 # Responsive Dashboard Design
@@ -14,3 +14,4 @@ The source code is written in React with the help of the Vite build tool, and st
 # Difficulty Encountered
 During the development of this project, I faced a few challenges related to responsive design. One of the main difficulties was making sure that the dashboard looked good and functioned properly on different screen sizes. I addressed this by using responsive design techniques such as media queries and flexbox layouts.
 Overall, I found this project to be a great opportunity to learn about building responsive dashboards using React and Tailwind CSS.
+https://nutap-stage-two-dashboard.vercel.app/
