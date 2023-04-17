@@ -151,7 +151,7 @@ const Hero = () => {
             <h4 class="text-black text-sm font-medium">2/10</h4>
           </div>
           <div class="bg-[#EBEBEB] w-[100%] h-[8px] rounded-3xl my-2">
-            <div class="bg-[#FF5F37] w-[160px] h-[8px] rounded-tl-3xl rounded-bl-3xl"></div>
+            <div class="bg-[#FF5F37] w-[160px] xl:w-[120px] lg:w-[120px] h-[8px] rounded-tl-3xl rounded-bl-3xl"></div>
           </div>
           <div class="flex justify-between items-center">
             <div class="flex justify-center items-center">
@@ -214,7 +214,7 @@ const Hero = () => {
               <h4 class="text-black text-sm font-medium">2/10</h4>
             </div>
             <div class="bg-[#EBEBEB] w-[100%] h-[8px] rounded-3xl my-2">
-              <div class="bg-[#8BC488] w-[316px] h-[8px] rounded-tl-3xl rounded-bl-3xl"></div>
+              <div class="bg-[#8BC488] w-[316px] lg:w-[100%] xl:w-[250px] h-[8px] rounded-tl-3xl rounded-bl-3xl"></div>
             </div>
             <div class="flex justify-between items-center">
               <div class="flex justify-center items-center">
@@ -267,7 +267,7 @@ const Hero = () => {
               <h4 class="text-black text-sm font-medium">2/10</h4>
             </div>
             <div class="bg-[#EBEBEB] w-[100%] h-[8px] rounded-3xl my-2">
-              <div class="bg-[#8BC488] w-[316px] h-[8px] rounded-tl-3xl rounded-bl-3xl"></div>
+              <div class="bg-[#8BC488] w-[316px] lg:w-[100%] xl:w-[250px] h-[8px] rounded-tl-3xl rounded-bl-3xl"></div>
             </div>
             <div class="flex justify-between items-center">
               <div class="flex justify-center items-center">
