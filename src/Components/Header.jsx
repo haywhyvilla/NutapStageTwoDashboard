@@ -8,10 +8,10 @@ import plus from "../Images/plus.png";
 
 const Header = () => {
   return (
-    <div class="lg:h-[170px] w-[100%] py-[20px] px-[10px] lg:px-[65px] shadow-[0px_4px_148px_rgba(0,0,0,0.2)]">
+    <div class="lg:h-[170px] w-[100%] py-[20px] px-[10px] md:px-[65px] shadow-[0px_4px_148px_rgba(0,0,0,0.2)]">
       <div>
         <div class="block lg:flex justify-between items-center">
-          <div class="w-full">
+          <div class="w-full lg:m-0 m-2">
             <h1 class="font-semibold text-[38px] text-black tracking-tight">
               New Campaign Run
             </h1>
@@ -48,20 +48,28 @@ const Header = () => {
         <div class="flex justify-between items-center">
           <div class="flex justify-between items-center gap-2 ml-5">
             <img src={participants} alt="participants" class="inline" />
-            <p class="text-[#7D8088] font-medium text-sm">Participants View</p>
+            <p class="text-[#7D8088] font-medium lg:text-sm text-xs">
+              Participants View
+            </p>
           </div>
           <div class="flex justify-between items-center gap-2 ml-5">
             <img src={board} alt="board" class="inline" />
-            <p class="text-[#7D8088] font-medium text-sm">Board View</p>
+            <p class="text-[#7D8088] font-medium lg:text-sm text-xs">
+              Board View
+            </p>
           </div>
           <div class="flex justify-between items-center gap-2 ml-5">
             <img src={list} alt="list" class="inline" />
-            <p class="text-[#7D8088] font-medium text-sm">List View</p>
+            <p class="text-[#7D8088] font-medium lg:text-sm text-xs">
+              List View
+            </p>
           </div>
 
           <div class="flex justify-between items-center gap-2 ml-5">
             <img src={power} alt="power" class="inline" />
-            <p class="text-[#7D8088] font-medium text-sm">Power View</p>
+            <p class="text-[#7D8088] font-medium lg:text-sm text-xs">
+              Power View
+            </p>
           </div>
 
           <img src={plus} alt="plus" class="ml-5" />

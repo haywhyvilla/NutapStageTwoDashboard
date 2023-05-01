@@ -10,7 +10,7 @@ import newproject from "../Images/newproject.png";
 
 const SideNav = () => {
   return (
-    <div class="hidden md:block h-[100vh] w-[272px] bg-[#1D1042] py-9 px-9">
+    <div class="hidden md:block h-[100vh] w-[272px] bg-[#1D1042] py-9 px-9 relative">
       <div>
         <button class="bg-[#45269C] text-white font-normal text-base py-[12px] px-[16px] rounded-lg w-[208px] h-[46px]">
           <img src={welcome} alt="welcome" class="inline mx-2.5" />
@@ -54,7 +54,7 @@ const SideNav = () => {
           </li>
         </ul>
       </div>
-      <button class="mt-36 text-white font-normal text-base py-[16px] px-[16px] rounded-lg w-[208px] h-[54px] bg-[#703EFE]">
+      <button class="absolute text-white font-normal text-base py-[16px] px-[16px] rounded-lg w-[208px] h-[54px] bg-[#703EFE] bottom-9">
         <img src={newproject} alt="newproject" class="inline mx-2.5" />
         NEW PROJECT
       </button>
