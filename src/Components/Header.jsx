@@ -25,7 +25,7 @@ const Header = () => {
         </div>
       </div>
       <div class="block md:flex justify-between items-center my-[25px]">
-        <div class="flex md:justify-between items-center gap-2 my-[25px] md:my-0">
+        <div class="flex md:block lg:flex md:justify-between items-center gap-2 my-[25px] md:my-0">
           <div class="flex items-center">
             <img
               src={image}
