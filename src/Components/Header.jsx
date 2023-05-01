@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div class="lg:h-[170px] w-[100%] py-[20px] px-[10px] lg:px-[65px] shadow-[0px_4px_148px_rgba(0,0,0,0.2)]">
       <div>
-        <div class="block md:flex justify-between items-center">
+        <div class="block lg:flex justify-between items-center">
           <div class="w-full">
             <h1 class="font-semibold text-[38px] text-black tracking-tight">
               New Campaign Run
@@ -24,7 +24,7 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <div class="blockmd:flex justify-between items-center my-[25px]">
+      <div class="block md:flex justify-between items-center my-[25px]">
         <div class="flex md:justify-between items-center gap-2 my-[25px] md:my-0">
           <div class="flex items-center">
             <img

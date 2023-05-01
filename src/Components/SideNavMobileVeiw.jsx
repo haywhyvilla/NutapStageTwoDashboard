@@ -10,6 +10,7 @@ import users from "../Images/users.png";
 import newproject from "../Images/newproject.png";
 
 import { GiHamburgerMenu } from "react-icons/gi";
+import { ImCancelCircle } from "react-icons/im";
 
 const SideNavMobileVeiw = () => {
   const [open, setOpen] = useState(false);
@@ -20,9 +21,15 @@ const SideNavMobileVeiw = () => {
   return (
     <div class="md:hidden sticky top-0 z-10">
       <div class="w-full h-12 bg-[#45269C] p-2 text-white">
-        <p class="cursor-pointer">
-          <GiHamburgerMenu size={30} onClick={handleClick} />
-        </p>
+        {open ? (
+          <p class="cursor-pointer">
+            <ImCancelCircle size={30} onClick={handleClick} />
+          </p>
+        ) : (
+          <p class="cursor-pointer">
+            <GiHamburgerMenu size={30} onClick={handleClick} />
+          </p>
+        )}
       </div>
 
       {open ? (
