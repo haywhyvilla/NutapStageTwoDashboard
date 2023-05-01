@@ -11,7 +11,7 @@ import addtasks from "../Images/addtask.png";
 
 const Hero = () => {
   return (
-    <div class="w[100%] h-[670px] bg-[#FCFBFC] px-[5px] lg:px-[65px] py-[12px]  grid grid-cols-1 lg:grid-cols-3 gap-10">
+    <div class="w[100%] h-[670px] bg-[#FCFBFC] px-[10px] lg:px-[65px] py-[12px]  grid grid-cols-1 lg:grid-cols-3 gap-10">
       <div>
         <div class="w-[100%] h-[45px] bg-[#F4F6F8] rounded-lg py-2 px-6 flex justify-between items-center my-2">
           <p class="text-[#858A93] font-medium text-base">To Do</p>
