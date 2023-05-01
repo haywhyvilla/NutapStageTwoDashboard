@@ -8,7 +8,7 @@ import plus from "../Images/plus.png";
 
 const Header = () => {
   return (
-    <div class="h-[170px] w-[100%] py-[20px] px-[5px] lg:px-[65px] shadow-[0px_4px_148px_rgba(0,0,0,0.2)]">
+    <div class="lg:h-[170px] w-[100%] py-[20px] px-[5px] lg:px-[65px] shadow-[0px_4px_148px_rgba(0,0,0,0.2)]">
       <div>
         <div class="block md:flex justify-between items-center">
           <div class="w-full">
@@ -24,8 +24,8 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <div class="flex justify-between items-center my-[25px]">
-        <div class="flex justify-between items-center gap-2">
+      <div class="blockmd:flex justify-between items-center my-[25px]">
+        <div class="flex md:justify-between items-center gap-2 my-[25px] md:my-0">
           <div class="flex items-center">
             <img
               src={image}
