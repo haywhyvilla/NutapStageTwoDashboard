@@ -11,7 +11,7 @@ import addtasks from "../Images/addtask.png";
 
 const Hero = () => {
   return (
-    <div class="w[100%] h-[670px] bg-[#FCFBFC] px-[65px] py-[12px]  grid grid-cols-1 lg:grid-cols-3 gap-10">
+    <div class="w[100%] h-[670px] bg-[#FCFBFC] lg:px-[65px] py-[12px]  grid grid-cols-1 lg:grid-cols-3 gap-10">
       <div>
         <div class="w-[100%] h-[45px] bg-[#F4F6F8] rounded-lg py-2 px-6 flex justify-between items-center my-2">
           <p class="text-[#858A93] font-medium text-base">To Do</p>
@@ -20,7 +20,7 @@ const Hero = () => {
           </button>
         </div>
         <div class="bg-white px-4 py-4 mb-2 shadow-[0px_0px_100px_rgba(0,0,0,0.2) rounded-xl">
-          <div class="h-[168px]">
+          <div class="lg:h-[168px]">
             <img src={cardimage1} alt="cardimage1" class="h-[100%]" />
           </div>
           <div class="flex justify-between items-center mt-2">
@@ -131,7 +131,7 @@ const Hero = () => {
           </button>
         </div>
         <div class="bg-white px-4 py-4 mb-2 shadow-[0px_0px_100px_rgba(0,0,0,0.2) rounded-xl">
-          <div class="h-[168px]">
+          <div class="lg:h-[168px]">
             <img src={cardimage2} alt="cardimage2" class="h-[100%]" />
           </div>
           <div class="flex justify-between items-center mt-2">
@@ -247,7 +247,7 @@ const Hero = () => {
             </div>
           </div>
           <div class="bg-white px-4 py-4 shadow-[0px_0px_100px_rgba(0,0,0,0.2) rounded-xl">
-            <div class="h-[168px]">
+            <div class="lg:h-[168px]">
               <img src={cardimage3} alt="cardimage3" class="h-[100%]" />
             </div>
             <div class="flex justify-between items-center mt-2">

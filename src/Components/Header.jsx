@@ -8,10 +8,10 @@ import plus from "../Images/plus.png";
 
 const Header = () => {
   return (
-    <div class="h-[170px] w-[100%] py-[20px] px-[65px] shadow-[0px_4px_148px_rgba(0,0,0,0.2)]">
+    <div class="h-[170px] w-[100%] py-[20px] lg:px-[65px] shadow-[0px_4px_148px_rgba(0,0,0,0.2)]">
       <div>
         <div class="flex justify-between items-center">
-          <div>
+          <div class="w-full">
             <h1 class="font-semibold text-[38px] text-black tracking-tight">
               New Campaign Run
             </h1>
