@@ -32,7 +32,7 @@ const SideNavMobileVeiw = () => {
       </div>
 
       {open ? (
-        <div class="w-[272px] bg-[#1D1042] py-9 px-9 absolute">
+        <div class="w-[272px] h-screen bg-[#1D1042] py-9 px-9 absolute">
           <div>
             <button class="bg-[#45269C] text-white font-normal text-base py-[12px] px-[16px] rounded-lg w-[208px] h-[46px]">
               <img src={welcome} alt="welcome" class="inline mx-2.5" />
@@ -76,7 +76,7 @@ const SideNavMobileVeiw = () => {
               </li>
             </ul>
           </div>
-          <button class="mt-36 text-white font-normal text-base py-[16px] px-[16px] rounded-lg w-[208px] h-[54px] bg-[#703EFE]">
+          <button class="text-white font-normal text-base py-[16px] px-[16px] rounded-lg w-[208px] h-[54px] bg-[#703EFE] absolute bottom-16">
             <img src={newproject} alt="newproject" class="inline mx-2.5" />
             NEW PROJECT
           </button>

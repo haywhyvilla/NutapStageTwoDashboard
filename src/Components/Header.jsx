@@ -46,33 +46,33 @@ const Header = () => {
           <p class="text-[#B8B9BD] font-normal text-sm">8 member</p>
         </div>
         <div class="flex justify-between items-center">
-          <div class="flex justify-between items-center gap-2 ml-5">
+          <div class="flex sm:justify-between items-center gap-2 sm:ml-5">
             <img src={participants} alt="participants" class="inline" />
             <p class="text-[#7D8088] font-medium lg:text-sm text-xs">
               Participants View
             </p>
           </div>
-          <div class="flex justify-between items-center gap-2 ml-5">
+          <div class="flex sm:justify-between items-center gap-2 sm:ml-5">
             <img src={board} alt="board" class="inline" />
             <p class="text-[#7D8088] font-medium lg:text-sm text-xs">
               Board View
             </p>
           </div>
-          <div class="flex justify-between items-center gap-2 ml-5">
+          <div class="flex sm:justify-between items-center gap-2 sm:ml-5">
             <img src={list} alt="list" class="inline" />
             <p class="text-[#7D8088] font-medium lg:text-sm text-xs">
               List View
             </p>
           </div>
 
-          <div class="flex justify-between items-center gap-2 ml-5">
+          <div class="flex justify-between items-center gap-2 sm:ml-5">
             <img src={power} alt="power" class="inline" />
             <p class="text-[#7D8088] font-medium lg:text-sm text-xs">
               Power View
             </p>
           </div>
 
-          <img src={plus} alt="plus" class="ml-5" />
+          <img src={plus} alt="plus" class="sm:ml-5" />
         </div>
       </div>
     </div>
