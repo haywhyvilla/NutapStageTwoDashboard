@@ -52,20 +52,20 @@ const Header = () => {
               Participants View
             </p>
           </div>
-          <div class="flex sm:justify-between items-center gap-2 sm:ml-5">
+          <div class="flex sm:justify-between items-center gap-2 ml-1 sm:ml-5">
             <img src={board} alt="board" class="inline" />
             <p class="text-[#7D8088] font-medium lg:text-sm text-xs">
               Board View
             </p>
           </div>
-          <div class="flex sm:justify-between items-center gap-2 sm:ml-5">
+          <div class="flex sm:justify-between items-center gap-2 ml-1 sm:ml-5">
             <img src={list} alt="list" class="inline" />
             <p class="text-[#7D8088] font-medium lg:text-sm text-xs">
               List View
             </p>
           </div>
 
-          <div class="flex justify-between items-center gap-2 sm:ml-5">
+          <div class="flex justify-between items-center gap-2 ml-1 sm:ml-5">
             <img src={power} alt="power" class="inline" />
             <p class="text-[#7D8088] font-medium lg:text-sm text-xs">
               Power View
